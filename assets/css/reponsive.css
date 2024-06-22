@@ -1,0 +1,66 @@
+/* mobile view */
+
+@media (max-width:568px){
+    .container{
+        width: 95%;
+    }
+    nav ul{
+        display: none;
+    }
+    .toggle-btn{
+        display: block;
+    }
+    .banner-cnt{
+        order: 2;
+    }
+    .banner-content{
+        padding: 50px 20px 50px 20px ;
+    }
+    .banner-sec .container{
+        padding: 0px 0;
+    }
+    .partner-img{
+        align-items: center;
+        justify-content: center;
+    }
+    .banner2-sec .container{
+        padding: 20px 0;
+    }
+    .banner2-content{
+        padding: 50px 20px 50px 20px ;
+    }
+    .card-sec{
+        justify-content: center;
+        gap: 30px;
+        flex-wrap: wrap;
+    }
+    .card-col{
+        width: 80%;
+    }
+    .socials{
+        align-items: center;
+        justify-content: center;
+    }
+    .copyrts{
+        text-align: center;
+    }
+    .portfolio-card{
+        width: 100%;
+        height: 100%;
+    }
+    .plans-row{
+        flex-wrap: wrap;
+    }
+    .plans-col{
+        width: 100%;
+    }
+    .contact-row{
+        flex-wrap: wrap;
+    }
+    .contact-col{
+        width: 95%;
+    }
+    .map{
+        order: 2;
+    }
+}
